@@ -1,0 +1,96 @@
+/*
+ Theme Name:   Astra Child
+ Theme URI:    http://storyscaping.linejessen.com
+ Description:  Astra Child Theme
+ Author:       Line Jessen
+ Author URI:   http://linejessen.com
+ Template:     astra
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         custom-menu, Eget logo, Underholdning, En kolonne, To kolonner, Venstre sidebar, E-Commerce, Højre sidebar, Egne farver, Editor-stylesheet, Udvalgte billeder, Fuld bredde, microformats, Indlægsformater, rtl-language-support, Temafunktioner, threaded-comments, translation-ready, Blog
+ Text Domain:  astrachild
+*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+.ast-primary-header-bar, .ast-primary-header, .main-header-bar {
+  /*position: fixed;*/
+  /*width: 100%;*/
+}
+
+.ast-footer-copyright {
+  font-family: 'Montserrat';
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: 2px white; /* Remove borders */
+  outline: solid; /* Remove outline */
+  background: transparent; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 10px; /* Some padding */
+  font-size: 18px; /* Increase font size */
+  border-radius: 0px; /* Rounded corners */
+  font-family: 'Playfair Display';
+}
+
+#myBtn:hover {
+  background-color: rgba(255, 255, 255, 0.3); 
+}
+
+.flaske {
+  animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+.flaske2 {
+  animation: float2 4s ease-in-out infinite;
+}
+
+@keyframes float2 {
+	100% {
+		transform: translatey(-20px);
+	}
+	70% {
+		transform: translatey(0px);
+	}
+	0% {
+		transform: translatey(-20px);
+	}
+}
+
+.bounce {
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
